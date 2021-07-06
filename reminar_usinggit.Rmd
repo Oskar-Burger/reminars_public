@@ -1,0 +1,38 @@
+---
+title: "Reminar versions and files"
+author: "oskar"
+date: "7/6/2021"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## 
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+```{r}
+ggplot(msleep, aes(x = brainwt, y = sleep_total, color = conservation)) + geom_point() + scale_x_log10() + theme_minimal() + geom_smooth(method = lm, se = F)
+
+```
+
+
+```{r}
+```
+
